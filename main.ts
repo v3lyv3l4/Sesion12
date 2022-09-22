@@ -6,15 +6,12 @@ input.onButtonPressed(Button.A, function () {
         basic.showNumber(input.temperature())
     }
     if (input.temperature() == 20) {
-        basic.showNumber(input.temperature())
         basic.showString("HAGAMOS UN PICNIC")
     }
     if (input.temperature() == 30) {
-        basic.showNumber(input.temperature())
         basic.showString("VAMOS A LA PLAYA")
     }
     if (input.temperature() == 40) {
-        basic.showNumber(input.temperature())
         basic.showString("MEJOR NO SALGAS")
     }
 })
